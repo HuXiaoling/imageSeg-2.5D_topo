@@ -5,7 +5,7 @@ This is another implementation of topological loss, containing both 2D and 2.5D 
 
 # Tips for train with topological loss
 
-The computation of persistent homology is run on CPU and kind of slow. So in order to make it work, actually I adopted lots of engineering tricks during training:
+The computation of persistent homology is run on CPU and kind of slow. So in order to make it work, actually we adopted lots of engineering tricks during training:
 
 1) Use pretrained models: pretrain the model without topo loss until obtaining reasonable likelihood maps and then finetune with topo loss to fix specific positions.
 
