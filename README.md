@@ -11,4 +11,4 @@ The computation of persistent homology is run on CPU and kind of slow. So in ord
 
 2) Small patches: apply topo loss on small patches instead of whole images to reduce computation cost.
 
-3) Reduce unnecessary computatation: during the finetune step, skip the topo loss computation if the likelihood map is already acceptable (checking by betti number).
+3) Reduce unnecessary computation: during the finetune step, skip the topo loss computation if the likelihood map is already acceptable (checking by betti number).
