@@ -3,7 +3,7 @@
 This is another implementation of topological loss, containing both 2D and 2.5D version. 
 
 
-# Tips for train with topological loss
+# Tips for training with topological loss
 
 The computation of persistent homology is run on CPU and kind of slow. So in order to make it work, actually we adopted lots of engineering tricks during training:
 
